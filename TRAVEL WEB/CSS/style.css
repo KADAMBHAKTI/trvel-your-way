@@ -1,0 +1,228 @@
+*
+{
+    transition: 0.5s all;
+}
+.header
+{
+    width:100%;
+    height:700px;
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)),url('../ASSETS/BANNER.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navigation
+{
+    height:80px;
+    align-items: center;
+}
+li
+{
+    padding-left: 20px;
+}
+a
+{
+    color:white;
+    text-decoration: none;
+    font-weight: 600;
+}
+.header-content
+{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left:50%;
+}
+.section
+{
+    margin: 8% 0%;
+}
+.section-heading::after
+{
+    content:'';
+    height:1x;
+    width:15%;
+    border:2px solid black;
+    display: block;
+    margin:8px auto;
+}
+.section .box
+{
+    width:23%;
+    padding: 10px 20px;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 20px grey;
+    border-radius: 20px;
+}
+.box:hover
+{
+    box-shadow:10px 10px 10px skyblue;
+}
+.section-banner2
+{ 
+    height:450px;
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('../ASSETS/BANNER2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.destination
+{
+    border-radius: 20px;
+}
+.carousel-item
+{
+    height:380px;
+}
+.portfolio
+{
+    margin: 8% 0%;
+}
+.tab-img
+{
+    height:350px;
+    margin-bottom: 25px;
+}
+.tab-img img
+{
+    height:100%;
+}
+.blog
+{
+    height:820px;
+    background: url('../ASSETS/BANNER4.avif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blog-image
+{
+    position: relative;
+}
+.blog1
+{
+    height:700px;  
+    display:block;
+    border-radius: 10px;  
+}
+.blog-content-main
+{
+    width:96.3%;
+    height:80px;
+    position: absolute;
+    bottom:0%;
+    left:0%;
+    margin-left: 2%;
+    background-color:transparent;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.blog-content-main p
+{
+    padding: 10px;
+    position: absolute;
+    bottom:0%;
+    text-align: center;
+    display: block;
+    opacity: 0;
+    color:white;
+    transition:0.8s;
+    border-radius: 20px;
+    text-align: center;
+}
+.blog-content-main:hover p
+{
+    bottom:2px;
+    opacity:1;
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2));
+    background-color: transparent;
+}
+.blog-img
+{
+    height:342px;
+    border-radius: 10px;
+}
+.blog-img img
+{
+    height:100%;
+}
+.blog-image2
+{
+    position: relative;
+}
+.blog-img
+{
+    height:342px;  
+    display:block;
+    border-radius: 10px;  
+}
+.blog-content
+{
+    width:100%;
+    height:80px;
+    position: absolute;
+    bottom:0%;
+    left:0%;
+    background-color: transparent;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.blog-content p
+{
+    padding: 10px;
+    position: absolute;
+    bottom:0%;
+    text-align: center;
+    display: block;
+    opacity: 0;
+    color:white;
+    transition:0.8s;
+    border-radius: 20px;
+    text-align: center;
+}
+.blog-content:hover p
+{
+    bottom:2px;
+    opacity:1;
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2));
+    background-color: transparent;
+}
+.counter
+{
+    margin:8% 0%;
+}
+.contact
+{
+    height:820px;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)),url('../ASSETS/BANNER3.avif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 8%;
+}
+.map-form
+{
+    margin-top: 5%;
+}
+.map-main
+{
+    height:500px;
+}
+.map
+{
+    width:100%;
+    height:100%;
+}
+.msg
+{
+    height:300px;
+}
+.form
+{
+  height:500px;
+}
+.icons a
+{
+    padding:10px 20px; 
+    margin:0px 10px;
+}

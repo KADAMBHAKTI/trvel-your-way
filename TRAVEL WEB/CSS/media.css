@@ -1,0 +1,48 @@
+@media (min-width:576px)and (max-width:767px) 
+{
+    .header
+    {
+        height:450px;
+    }
+    .section .box
+    {
+        width:100%;
+        margin-bottom: 30px;
+    }
+    .section-banner2
+    {
+        height:800px;
+    }
+    .blog
+    {
+        height:400vh;
+    }
+    .contact
+    {
+        height:380vh;
+    }
+}
+@media (min-width:768px) and (max-width:992px)
+{
+    .header
+    {
+        height:450px;
+    }
+    .section .box
+    {
+        width:45%;
+        margin-bottom:30px;
+    }
+    .section-banner2
+    {
+        height:800px;
+    }
+    .blog
+    {
+        height:400vh;
+    }
+    .contact
+    {
+        height:380vh;
+    }
+}
